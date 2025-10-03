@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>بطاقة الاتصال — Khaled Waleed</title>
+  <style>
+    :root{--bg:#0f1724;--card:#0b1220;--accent:#06b6d4;--muted:#9aa6b2}
+    *{box-sizing:border-box;font-family:system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial}
+    body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,#071125 0%,#081827 100%);color:#fff}
+    .wrap{width:100%;max-width:420px;padding:24px}
+    .card{background:var(--card);border-radius:16px;padding:18px;display:flex;flex-direction:column;align-items:center;gap:14px;box-shadow:0 6px 30px rgba(2,6,23,.6)}
+    .avatar{width:140px;height:140px;border-radius:50%;overflow:hidden;border:4px solid rgba(255,255,255,.06);display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,#fff2 0%,#fff0 60%)}
+    .avatar img{width:100%;height:100%;object-fit:cover;display:block}
+    .name{font-size:22px;font-weight:700}
+    .title{font-size:16px;color:var(--muted)}
+    .icons{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+    .icon{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:999px;background:linear-gradient(180deg,rgba(255,255,255,.02),rgba(255,255,255,.01));text-decoration:none;color:inherit;border:1px solid rgba(255,255,255,.03)}
+    .icon img{width:20px;height:20px;flex-shrink:0}
+    .hint{font-size:13px;color:var(--muted)}
+    @media (max-width:420px){.wrap{padding:16px}.avatar{width:110px;height:110px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div id="card" class="card">
+      <div class="avatar">
+        <img id="photo" src="https://i.ibb.co/fKkTq76/Whats-App-Image-2025-10-03-at-18-49-15-a0ef4ad5.jpg" alt="صورة Khaled Waleed"/>
+      </div>
+      <div class="name">Khaled Waleed</div>
+      <div class="title">DevOps Engineer</div>
+      <div class="icons">
+        <!-- WhatsApp -->
+        <a class="icon" href="https://wa.me/201061143134" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+        </a>
+
+        <!-- LinkedIn -->
+        <a class="icon" href="https://www.linkedin.com/in/khaled-alateeqi-0761b62b2" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+        </a>
+
+        <!-- Email -->
+        <a class="icon" href="mailto:khaled.alateeqi.egy@gmail.com">
+          <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
+        </a>
+      </div>
+      <div class="hint">اختر وسيلة التواصل المفضلة لديك</div>
+    </div>
+  </div>
+</body>
+</html>
